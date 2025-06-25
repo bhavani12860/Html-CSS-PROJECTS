@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+   
+}
+
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffce6;
+  color: #333;
+  
+}
+
+/* Header */
+header {
+  background-color: #ffb703;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(#fdfcdc, #ffe066);
+  text-align: center;
+  padding: 50px 20px;
+
+
+}
+.hero img{
+  width: 60%;
+  border-radius: 10px;
+  height: 350px;
+  object-position: 69% 40%;
+  object-fit: cover;
+  
+  
+
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Product Section */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+  
+  
+  
+  
+}
+.products h2 {
+padding-bottom: 60px;
+}
+
+
+.product-grid, .item-grid {
+   display:flex;
+  justify-content: center;
+  gap:50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product-card {
+  
+  padding: 10px ;
+  background-color: white;
+  border-radius: 20px;
+  padding-top:10px;
+   width: 400px;
+  transition: transform 0.3s;
+}
+ 
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+.product-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+.product-card h3 {
+  margin-top: 10px;
+}
+.product-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fb8500;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-card button:hover {
+  background-color: #ff6700;
+  
+  
+}
+
+
+/* Footer */
+footer {
+  background-color: #ffb703;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  color:white;
+  margin: 0 10px;
+  font-size: 30px;
+}
+.items {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+.items h2 {
+  padding-bottom: 40px;
+}
+
+.item-card {
+   padding: 10px ;
+  background-color: white;
+  border-radius: 20px;
+  padding-top:10px;
+   width: 420px;
+  transition: transform 0.3s;
+  
+
+}
+.item-card:hover {
+  transform: scale(1.05);
+}
+.item-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.item-card h3 {
+  margin-top: 10px;
+}
+
+.item-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fb8500;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.item-card button:hover {
+  background-color: #ff6700;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+}
+
+form button {
+  background:rgb(241, 180, 66);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background:orange;
+}
+.contact  h1{
+  text-align: center;
+  margin-top: 100px;
+  
+  
+
+}
